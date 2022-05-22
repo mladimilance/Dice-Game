@@ -32,10 +32,27 @@ img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+.rollTheDice {
+  font-size:15px;
+  font-family:Arial Black;
+  width:178px;
+  height:53px;
+  border-width:0px;
+  color:#ffffff;
+  border-color:#d83526;
+  font-weight:bold;
+  font-style:italic;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px -2px 0px 0px #f29c93;
+  text-shadow:inset 1px 1px 0px #b23e35;
+  background:linear-gradient(#fe1a00, #ce0100);
 }
+
+.rollTheDice:hover {
+  background: linear-gradient(#ce0100, #fe1a00);
+}
+              
+
