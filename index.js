@@ -14,3 +14,7 @@ if (randomImage1 > randomImage2) {
 } else if (randomImage1 === randomImage2) {
   document.querySelector("h1").innerText = "Draw!";
 }
+
+  function refreshPage() {
+      window.location.reload();
+ }
